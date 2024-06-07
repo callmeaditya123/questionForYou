@@ -38,28 +38,28 @@ isiStatement.style.display = "none";
 
 // statement 2 start
 function myFunction1() {
-  if ((question = prompt("masukan nama anda?"))) {
-    if (question == "adityaramadhan") {
+  if ((question = prompt("Enter Your Name"))) {
+    if (question == "Fern") {
       console.log(question);
       alert(`hallo ${question}`);
-      isiStatement.textContent = `gimana kabarmu?`;
-    } else if (question == "revinaaulia") {
+      isiStatement.textContent = `Are You Okay?`;
+    } else if (question == "fern") {
       console.log(question);
-      alert(`haii ${question}`);
-      isiStatement.textContent = "gimana kabarmu?\n apakah baik baik saja ?";
-    } else if (question == "aditya") {
-      console.log("pakai nama panjang anda");
-      alert("kurang tepat!!");
+      alert(`Hi ${question}`);
+      isiStatement.textContent = "Are You Okay?\n No problems ?";
+    } else if (question == "FERN") {
+      console.log("The front letters are Big");
+      alert("Less precies!!");
       location.reload();
-    } else if (question == "revina") {
-      console.log("pakai nama panjang anda");
-      alert("kurang tepat!!");
+    } else if (question == "fern") {
+      console.log("The names are all small");
+      alert("Less precies!!");
       location.reload();
     } else {
       console.log(
-        "maaf ini terkunci, bisa terbuka hanya untuk beberapa orang yang spesial"
+        "Sorry this is locked, it can only be open for a special few people"
       );
-      alert("maaf ini terkunci!");
+      alert("Sorry this is locked!");
       location.reload();
     }
   } else {
@@ -80,7 +80,7 @@ function myFunction1() {
 }
 
 function myFunction2() {
-  isiStatement.textContent = "syukur deh kalau kamu baik baik saja!!";
+  isiStatement.textContent = "Thank you if you are fine!!";
 
   buttonStatement2.style.display = "none";
   buttonStatement3.style.display = "none";
@@ -90,7 +90,7 @@ function myFunction2() {
 }
 
 function myFunction3() {
-  isiStatement.textContent = "sayang sekali kamu butuh perhatian yang lebih !!";
+  isiStatement.textContent = "Too bad you need attention apiesss!!";
   isiStatement.style.color = "black";
 
   buttonStatement2.style.display = "none";
@@ -106,7 +106,7 @@ function myFunction4() {
   containerStart.style.display = "none";
   isiStatement.style.display = "none";
   finalStatement.textContent =
-    "wellcome revina klik disini ya aku punya sesuatu hhe";
+    "Welcome Fern I have something for you";
   buttonStatement4.style.display = "none";
 
   body.classList.toggle("statementNext");
@@ -118,7 +118,7 @@ function isiFinal() {
   finalStatement.textContent = "loading....";
   setTimeout(() => {
     containerStart.style.display = "none";
-    finalStatement.textContent = "apakah kamu mau jadi pacar aku ??";
+    finalStatement.textContent = "Fern will you be my girlfriend ??";
     buttonStatement5.style.display = "block";
     buttonStatement6.style.display = "block";
   }, 3000);
@@ -132,12 +132,12 @@ function buttonAccept() {
 
   buttonStatement5.style.display = "none";
   buttonStatement6.style.display = "none";
-  alert("hah kamu serius mauu?");
+  alert("Whatttt, are you serious :)?");
   alert("are you serious?");
 
   isiAccept.textContent = question;
 }
 function buttonReject() {
-  alert("yahh gagal deh hhe");
+  alert("Well, it failed :(");
   location.reload();
 }
