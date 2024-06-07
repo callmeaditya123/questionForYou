@@ -39,11 +39,11 @@ isiStatement.style.display = "none";
 // statement 2 start
 function myFunction1() {
   if ((question = prompt("masukan nama anda?"))) {
-    if (question == "aditya ramadhan") {
+    if (question == "adityaramadhan") {
       console.log(question);
       alert(`hallo ${question}`);
       isiStatement.textContent = `gimana kabarmu?`;
-    } else if (question == "revina aulia") {
+    } else if (question == "revinaaulia") {
       console.log(question);
       alert(`haii ${question}`);
       isiStatement.textContent = "gimana kabarmu?\n apakah baik baik saja ?";
