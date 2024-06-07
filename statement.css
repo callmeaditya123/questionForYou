@@ -1,0 +1,331 @@
+*,
+html.body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-image: url(img-background/541737.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  position: relative;
+}
+
+/* container all */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/* container name (container 1 start) */
+.container-name {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 30px;
+  background-color: transparent;
+}
+
+.container-name ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.container-name ul li {
+  padding: 5px;
+}
+/* container name (container 1 end) */
+
+/* container statement all start */
+.container-statement-start {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: transparent;
+}
+
+/* container statement 1 start */
+.container-statement-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.statement1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#buttonStatement1 {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 25%;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: rgb(193, 188, 188);
+}
+
+#buttonStatement1:hover {
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.3s;
+  background-color: rgb(78, 144, 201);
+  border: 1px solid black;
+  color: rgb(16, 15, 15);
+}
+/* container statement 1 end */
+
+/* container statement 2 start */
+.container-statement-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  order: 1;
+}
+
+.statement2 {
+  width: 50px;
+  height: 25px;
+}
+
+#buttonStatement2 {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  border-radius: 25%;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: aquamarine;
+}
+
+#buttonStatement2:hover {
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.2s;
+  background-color: black;
+  color: white;
+}
+
+.statement3 {
+  width: 50px;
+  height: 25px;
+}
+
+#buttonStatement3 {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  border-radius: 25%;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: aquamarine;
+}
+
+#buttonStatement3:hover {
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.3s;
+  background-color: black;
+  color: white;
+}
+
+/* container statement 2 end */
+
+/* container statement 3 start */
+.container-statement-3 {
+  width: 50px;
+  height: 25px;
+  align-items: center;
+  order: 3;
+}
+
+#buttonStatement4 {
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  border-radius: 25%;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: rgb(249, 246, 246);
+}
+
+#buttonStatement4:hover {
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.3s;
+  border: 1px solid white;
+  color: rgb(254, 253, 253);
+}
+/* container statement 3 end */
+
+/* isi statement start */
+.isi-statement {
+  width: 50%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#isiStatement {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+/* isi statement end */
+
+/* container statement final start */
+/* container start */
+.container-statement-final {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+/* container end */
+
+/* container statement 4 start */
+.container-statement-4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: 1rem;
+}
+
+.container-statement-4 button {
+  padding: 9px;
+  text-transform: capitalize;
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+
+.container-statement-4 button:hover {
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+/* container statement 4 end */
+
+/* final isi statement start */
+.container-isi-final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* final isi statement end */
+
+/* final end start */
+#final-end {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  background-image: url(img-statement-final/question-final.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+#final-end ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+#final-end ul li {
+  padding: 5px;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: Arial, Helvetica, cursive;
+}
+
+.accept {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+/* final end end */
+
+/* container statement final end */
+/* container statement all end */
+
+/* statement trobosan main javascript start */
+.statementStart {
+  background-image: url(img-background/statementStart-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+.statementStart:hover {
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.5s;
+}
+
+.statementYes {
+  background-image: url(img-background/838.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  width: 100%;
+}
+
+.statementYes:hover {
+  background-color: white;
+  color: black;
+}
+
+.statementNo {
+  background-image: url(img-background/791.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  width: 100%;
+}
+
+.statementNext {
+  background-image: url(img-background/statement3-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+/* statement trobosan main javascript end */

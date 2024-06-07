@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>question for people</title>
+    <link rel="stylesheet" href="statement.css" />
+  </head>
+  <body>
+    <!-- container all start -->
+    <div class="container">
+      <!-- container name start -->
+      <div class="container-name" id="container-name">
+        <ul id="nameQuestion">
+          <li>hai aku punya question buat kamu</li>
+          <li>yu mulai</li>
+        </ul>
+      </div>
+      <!-- container name end -->
+
+      <!-- container statement start -->
+      <div class="container-statement-start" id="container-start-statement">
+      <div class="container-statement-1">
+        <div class="statement1">
+          <button onclick="myFunction1()" id="buttonStatement1">start</button>
+        </div>
+        </div>
+
+        <div class="container-statement-2">
+          <div class="statement2">
+            <button onclick="myFunction2()" id="buttonStatement2">yes</button>
+          </div>
+
+          <div class="statement3">
+            <button onclick="myFunction3()" id="buttonStatement3">no</button>
+          </div>
+        </div>
+      
+        <div class="container-statement-3">
+          <button onclick="myFunction4()" id="buttonStatement4">next</button>
+        </div>
+
+        <div class="isi-statement">
+          <p id="isiStatement"></p>
+        </div>
+      </div>
+      <div class="container-statement-final">
+        <div class="container-statement-4">
+          <button onclick="buttonAccept()" id="buttonStatement5">accept</button>
+          <button onclick="buttonReject()" id="buttonStatement6">reject</button>
+        </div>
+
+        <div class="container-isi-final" id="container-final-statement">
+          <h1 id="finalStatement" onmouseover="isiFinal()"></h1>
+        </div>
+        <div id="final-end">
+          <div class="accept">
+            <ul>
+              <li>aditya ramadhan</li>
+              <li>&</li>
+              <li id="accept"></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- container statement end -->
+    </div>
+    <!-- container all end -->
+
+    <script type="text/javascript" src="statement.js"></script>
+  </body>
+</html>
