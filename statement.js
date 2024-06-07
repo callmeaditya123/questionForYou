@@ -41,7 +41,7 @@ function myFunction1() {
   if ((question = prompt("Enter Your Name"))) {
     if (question == "Fern") {
       console.log(question);
-      alert(`hallo ${question}`);
+      alert(`Hi ${question}`);
       isiStatement.textContent = `Are You Okay?`;
     } else if (question == "fern") {
       console.log(question);
@@ -106,7 +106,7 @@ function myFunction4() {
   containerStart.style.display = "none";
   isiStatement.style.display = "none";
   finalStatement.textContent =
-    "Welcome Fern I have something for you";
+    "Welcome Fern I have something for you\n Click in Here";
   buttonStatement4.style.display = "none";
 
   body.classList.toggle("statementNext");

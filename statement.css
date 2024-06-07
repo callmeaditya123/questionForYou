@@ -7,7 +7,7 @@ html.body {
 
 body {
   font-family: "Times New Roman", Times, serif;
-  background-image: url(img-background/541737.png);
+  background-image: url(img-background/love.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
   position: relative;
@@ -256,7 +256,7 @@ body {
   align-items: center;
   position: absolute;
   top: 0px;
-  background-image: url(img-statement-final/question-final.jpg);
+  background-image: url(img-statement-final/love2.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
 }
@@ -294,7 +294,7 @@ body {
 
 /* statement trobosan main javascript start */
 .statementStart {
-  background-image: url(img-background/statementStart-background.jpg);
+  background-image: url(img-background/love3.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
 }
@@ -305,7 +305,7 @@ body {
 }
 
 .statementYes {
-  background-image: url(img-background/838.jpg);
+  background-image: url(img-background/love4.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
   width: 100%;
@@ -317,14 +317,14 @@ body {
 }
 
 .statementNo {
-  background-image: url(img-background/791.jpg);
+  background-image: url(img-background/love5.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
   width: 100%;
 }
 
 .statementNext {
-  background-image: url(img-background/statement3-background.jpg);
+  background-image: url(img-background/love6.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100vh;
 }
