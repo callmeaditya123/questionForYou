@@ -91,7 +91,7 @@ function myFunction2() {
 
 function myFunction3() {
   isiStatement.textContent = "Too bad you need attention apiesss!!";
-  isiStatement.style.color = "black";
+  isiStatement.style.color = "white";
 
   buttonStatement2.style.display = "none";
   buttonStatement3.style.display = "none";
