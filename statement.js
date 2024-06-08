@@ -46,7 +46,7 @@ function myFunction1() {
     } else if (question == "fern") {
       console.log(question);
       alert(`Hi ${question}`);
-      isiStatement.textContent = "Are You Okay?\n No problems ?";
+      isiStatement.textContent = "Do you have a problem yes or no?";
     } else if (question == "FERN") {
       console.log("The front letters are Big");
       alert("Less precies!!");
