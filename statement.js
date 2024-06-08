@@ -80,7 +80,7 @@ function myFunction1() {
 }
 
 function myFunction2() {
-  isiStatement.textContent = "Thank you if you are fine!!";
+  isiStatement.textContent = "Too bad you need attention apiesss!!";
 
   buttonStatement2.style.display = "none";
   buttonStatement3.style.display = "none";
@@ -90,7 +90,7 @@ function myFunction2() {
 }
 
 function myFunction3() {
-  isiStatement.textContent = "Too bad you need attention apiesss!!";
+  isiStatement.textContent = "Thank you if you are fine!!";
   isiStatement.style.color = "white";
 
   buttonStatement2.style.display = "none";
